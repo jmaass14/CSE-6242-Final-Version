@@ -17,17 +17,17 @@
     },
     "train_date_range": {
       "start": "1997-05-01",
-      "end": "2017-03-01"
+      "end": "2019-12-01"
     },
     "test_date_range": {
-      "start": "2017-04-01",
+      "start": "2020-01-01",
       "end": "2026-02-01"
     },
-    "train_ratio": 0.7,
+    "train_ratio": 0.8,
     "n_observations": 336,
-    "log_likelihood": -760.2822,
-    "aic": 1656.5644,
-    "bic": 1916.128
+    "log_likelihood": -896.905,
+    "aic": 1929.81,
+    "bic": 2189.3735
   },
   "regimes": [
     {
@@ -51,19 +51,19 @@
   ],
   "transition_matrix": [
     [
-      0.48121,
-      0.009485,
-      0.509306
+      0.488668,
+      0.007854,
+      0.503478
     ],
     [
       0.0,
-      0.983055,
-      0.016945
+      0.983335,
+      0.016665
     ],
     [
-      0.786489,
+      0.804781,
       0.0,
-      0.213511
+      0.195219
     ]
   ],
   "time_series": [
@@ -144,9 +144,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004516,
+        0.004532,
         0.0,
-        0.995484
+        0.995468
       ],
       "split": "train",
       "FEDFUNDS": 5.56,
@@ -207,9 +207,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004541,
+        0.004601,
         0.0,
-        0.995459
+        0.995399
       ],
       "split": "train",
       "FEDFUNDS": 5.54,
@@ -249,9 +249,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004974,
+        0.005227,
         0.0,
-        0.995026
+        0.994773
       ],
       "split": "train",
       "FEDFUNDS": 5.52,
@@ -291,9 +291,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.018584,
+        0.020664,
         0.0,
-        0.981416
+        0.979336
       ],
       "split": "train",
       "FEDFUNDS": 5.56,
@@ -312,9 +312,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.082,
+        0.104424,
         0.0,
-        0.918
+        0.895576
       ],
       "split": "train",
       "FEDFUNDS": 5.51,
@@ -333,9 +333,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.023057,
+        0.026234,
         0.0,
-        0.976943
+        0.973766
       ],
       "split": "train",
       "FEDFUNDS": 5.49,
@@ -438,9 +438,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005429,
+        0.005699,
         0.0,
-        0.994571
+        0.994301
       ],
       "split": "train",
       "FEDFUNDS": 5.55,
@@ -501,9 +501,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005755,
+        0.006082,
         0.0,
-        0.994245
+        0.993918
       ],
       "split": "train",
       "FEDFUNDS": 4.83,
@@ -543,9 +543,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.00503,
+        0.005344,
         0.0,
-        0.99497
+        0.994656
       ],
       "split": "train",
       "FEDFUNDS": 4.63,
@@ -627,9 +627,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.014878,
+        0.019882,
         0.0,
-        0.985122
+        0.980118
       ],
       "split": "train",
       "FEDFUNDS": 4.74,
@@ -648,9 +648,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.015379,
+        0.025106,
         0.0,
-        0.984621
+        0.974894
       ],
       "split": "train",
       "FEDFUNDS": 4.76,
@@ -690,9 +690,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005036,
+        0.0051,
         0.0,
-        0.994964
+        0.9949
       ],
       "split": "train",
       "FEDFUNDS": 5.07,
@@ -795,9 +795,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005854,
+        0.005634,
         0.0,
-        0.994146
+        0.994366
       ],
       "split": "train",
       "FEDFUNDS": 5.45,
@@ -858,9 +858,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.002225,
+        0.004051,
         0.0,
-        0.997775
+        0.995949
       ],
       "split": "train",
       "FEDFUNDS": 6.02,
@@ -921,9 +921,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.00609,
+        0.006302,
         0.0,
-        0.99391
+        0.993698
       ],
       "split": "train",
       "FEDFUNDS": 6.54,
@@ -984,9 +984,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005061,
+        0.005837,
         0.0,
-        0.994939
+        0.994163
       ],
       "split": "train",
       "FEDFUNDS": 6.51,
@@ -1047,9 +1047,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.015901,
+        0.015958,
         0.0,
-        0.984099
+        0.984042
       ],
       "split": "train",
       "FEDFUNDS": 5.98,
@@ -1110,9 +1110,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005084,
+        0.005355,
         0.0,
-        0.994916
+        0.994645
       ],
       "split": "train",
       "FEDFUNDS": 4.8,
@@ -1173,9 +1173,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005285,
+        0.008466,
         0.0,
-        0.994715
+        0.991534
       ],
       "split": "train",
       "FEDFUNDS": 3.77,
@@ -1215,9 +1215,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.006751,
+        0.005947,
         0.0,
-        0.993249
+        0.994053
       ],
       "split": "train",
       "FEDFUNDS": 3.07,
@@ -1278,9 +1278,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.027443,
+        0.030705,
         0.0,
-        0.972557
+        0.969295
       ],
       "split": "train",
       "FEDFUNDS": 1.82,
@@ -1299,9 +1299,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.013283,
+        0.014961,
         0.0,
-        0.986717
+        0.985039
       ],
       "split": "train",
       "FEDFUNDS": 1.73,
@@ -1404,9 +1404,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004795,
+        0.00511,
         0.0,
-        0.995205
+        0.99489
       ],
       "split": "train",
       "FEDFUNDS": 1.75,
@@ -1467,9 +1467,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.003676,
+        0.003797,
         0.0,
-        0.996324
+        0.996203
       ],
       "split": "train",
       "FEDFUNDS": 1.75,
@@ -1530,9 +1530,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.010477,
+        0.012309,
         0.0,
-        0.989523
+        0.987691
       ],
       "split": "train",
       "FEDFUNDS": 1.24,
@@ -1551,9 +1551,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.042951,
+        0.057105,
         0.0,
-        0.957049
+        0.942895
       ],
       "split": "train",
       "FEDFUNDS": 1.24,
@@ -1572,9 +1572,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.010271,
+        0.014576,
         0.0,
-        0.989729
+        0.985424
       ],
       "split": "train",
       "FEDFUNDS": 1.26,
@@ -1648,9 +1648,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.002376,
+        0.002688,
         0.0,
-        0.997624
+        0.997312
       ],
       "split": "train",
       "FEDFUNDS": 1.22,
@@ -1687,12 +1687,12 @@
     },
     {
       "date": "2003-08-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 0,
+      "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.474022,
+        0.944871,
         0.0,
-        0.525978
+        0.055129
       ],
       "split": "train",
       "FEDFUNDS": 1.03,
@@ -1711,9 +1711,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005885,
+        0.003182,
         0.0,
-        0.994115
+        0.996818
       ],
       "split": "train",
       "FEDFUNDS": 1.01,
@@ -1753,9 +1753,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004662,
+        0.004898,
         0.0,
-        0.995338
+        0.995102
       ],
       "split": "train",
       "FEDFUNDS": 1.0,
@@ -1795,9 +1795,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.019258,
+        0.019956,
         0.0,
-        0.980742
+        0.980044
       ],
       "split": "train",
       "FEDFUNDS": 1.0,
@@ -1816,9 +1816,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.016942,
+        0.017996,
         0.0,
-        0.983058
+        0.982004
       ],
       "split": "train",
       "FEDFUNDS": 1.01,
@@ -1879,9 +1879,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004596,
+        0.004538,
         0.0,
-        0.995404
+        0.995462
       ],
       "split": "train",
       "FEDFUNDS": 1.0,
@@ -1942,9 +1942,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005019,
+        0.005451,
         0.0,
-        0.994981
+        0.994549
       ],
       "split": "train",
       "FEDFUNDS": 1.43,
@@ -2005,9 +2005,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.009199,
+        0.01466,
         0.0,
-        0.990801
+        0.98534
       ],
       "split": "train",
       "FEDFUNDS": 1.93,
@@ -2047,9 +2047,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.022767,
+        0.019422,
         0.0,
-        0.977233
+        0.980578
       ],
       "split": "train",
       "FEDFUNDS": 2.28,
@@ -2068,9 +2068,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.157325,
+        0.48175,
         0.0,
-        0.842675
+        0.51825
       ],
       "split": "train",
       "FEDFUNDS": 2.5,
@@ -2131,9 +2131,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.006972,
+        0.00753,
         0.0,
-        0.993028
+        0.99247
       ],
       "split": "train",
       "FEDFUNDS": 3.0,
@@ -2236,9 +2236,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004821,
+        0.004849,
         0.0,
-        0.995179
+        0.995151
       ],
       "split": "train",
       "FEDFUNDS": 3.78,
@@ -2299,9 +2299,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.010817,
+        0.012085,
         0.0,
-        0.989183
+        0.987915
       ],
       "split": "train",
       "FEDFUNDS": 4.29,
@@ -2362,9 +2362,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.006456,
+        0.007524,
         0.0,
-        0.993544
+        0.992476
       ],
       "split": "train",
       "FEDFUNDS": 4.79,
@@ -2425,9 +2425,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.007474,
+        0.008821,
         0.0,
-        0.992526
+        0.991179
       ],
       "split": "train",
       "FEDFUNDS": 5.24,
@@ -2488,9 +2488,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.057912,
+        0.081046,
         0.0,
-        0.942088
+        0.918954
       ],
       "split": "train",
       "FEDFUNDS": 5.25,
@@ -2551,9 +2551,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005864,
+        0.006008,
         0.0,
-        0.994136
+        0.993992
       ],
       "split": "train",
       "FEDFUNDS": 5.25,
@@ -2614,9 +2614,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005538,
+        0.005923,
         0.0,
-        0.994462
+        0.994077
       ],
       "split": "train",
       "FEDFUNDS": 5.25,
@@ -2677,9 +2677,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005277,
+        0.005398,
         0.0,
-        0.994723
+        0.994602
       ],
       "split": "train",
       "FEDFUNDS": 5.26,
@@ -2719,9 +2719,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005541,
+        0.006163,
         0.0,
-        0.994459
+        0.993837
       ],
       "split": "train",
       "FEDFUNDS": 4.94,
@@ -2782,9 +2782,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.015021,
+        0.017635,
         0.0,
-        0.984979
+        0.982365
       ],
       "split": "train",
       "FEDFUNDS": 4.24,
@@ -2803,9 +2803,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.015532,
+        0.018278,
         0.0,
-        0.984468
+        0.981722
       ],
       "split": "train",
       "FEDFUNDS": 3.94,
@@ -2845,9 +2845,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.00417,
+        0.004375,
         0.0,
-        0.99583
+        0.995625
       ],
       "split": "train",
       "FEDFUNDS": 2.61,
@@ -2908,9 +2908,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.030464,
+        0.073156,
         0.0,
-        0.969536
+        0.926844
       ],
       "split": "train",
       "FEDFUNDS": 2.0,
@@ -2950,8 +2950,8 @@
       "regime": 0,
       "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.999987,
-        1.3e-05,
+        0.999972,
+        2.8e-05,
         0.0
       ],
       "split": "train",
@@ -2971,9 +2971,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.003059,
+        0.003248,
         0.0,
-        0.996941
+        0.996752
       ],
       "split": "train",
       "FEDFUNDS": 1.81,
@@ -3031,11 +3031,11 @@
     },
     {
       "date": "2008-12-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
-        1.0,
-        0.0,
+        8e-06,
+        0.999992,
         0.0
       ],
       "split": "train",
@@ -4232,8 +4232,8 @@
       "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
-        1.0,
-        0.0
+        0.999757,
+        0.000243
       ],
       "split": "train",
       "FEDFUNDS": 0.08,
@@ -4252,8 +4252,8 @@
       "regime": 1,
       "regime_label": "High-Vol Crisis",
       "regime_probs": [
-        0.0,
-        1.0,
+        0.000243,
+        0.999757,
         0.0
       ],
       "split": "train",
@@ -4273,8 +4273,8 @@
       "regime": 1,
       "regime_label": "High-Vol Crisis",
       "regime_probs": [
-        0.0,
-        1.0,
+        0.000242,
+        0.999758,
         0.0
       ],
       "split": "train",
@@ -4294,9 +4294,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.0,
-        0.015812,
-        0.984188
+        1e-06,
+        0.007656,
+        0.992343
       ],
       "split": "train",
       "FEDFUNDS": 0.09,
@@ -4315,9 +4315,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.010746,
-        7.6e-05,
-        0.989178
+        0.019154,
+        2.3e-05,
+        0.980823
       ],
       "split": "train",
       "FEDFUNDS": 0.07,
@@ -4336,9 +4336,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.01826,
-        2e-06,
-        0.981738
+        0.025615,
+        0.0,
+        0.974385
       ],
       "split": "train",
       "FEDFUNDS": 0.07,
@@ -4391,9 +4391,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.053004,
+        0.123304,
         0.0,
-        0.946996
+        0.876696
       ],
       "split": "train",
       "FEDFUNDS": 0.09,
@@ -4412,9 +4412,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.009849,
+        0.011141,
         0.0,
-        0.990151
+        0.988859
       ],
       "split": "train",
       "FEDFUNDS": 0.1,
@@ -4454,8 +4454,8 @@
       "regime": 0,
       "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.999999,
-        1e-06,
+        0.999996,
+        4e-06,
         0.0
       ],
       "split": "train",
@@ -4475,9 +4475,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005236,
+        0.005314,
         0.0,
-        0.994764
+        0.994686
       ],
       "split": "train",
       "FEDFUNDS": 0.09,
@@ -4517,9 +4517,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.015738,
+        0.015754,
         0.0,
-        0.984262
+        0.984246
       ],
       "split": "train",
       "FEDFUNDS": 0.09,
@@ -4559,9 +4559,9 @@
       "regime": 0,
       "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.775312,
+        0.815901,
         0.0,
-        0.224688
+        0.184099
       ],
       "split": "train",
       "FEDFUNDS": 0.11,
@@ -4580,9 +4580,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.021554,
+        0.023261,
         0.0,
-        0.978446
+        0.976739
       ],
       "split": "train",
       "FEDFUNDS": 0.11,
@@ -4601,9 +4601,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.014648,
+        0.015896,
         0.0,
-        0.985352
+        0.984104
       ],
       "split": "train",
       "FEDFUNDS": 0.11,
@@ -4622,9 +4622,9 @@
       "regime": 0,
       "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.997601,
+        0.999973,
         0.0,
-        0.002399
+        2.7e-05
       ],
       "split": "train",
       "FEDFUNDS": 0.12,
@@ -4664,9 +4664,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.082712,
+        0.229155,
         0.0,
-        0.917288
+        0.770845
       ],
       "split": "train",
       "FEDFUNDS": 0.13,
@@ -4706,9 +4706,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005235,
+        0.005961,
         0.0,
-        0.994765
+        0.994039
       ],
       "split": "train",
       "FEDFUNDS": 0.14,
@@ -4769,9 +4769,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004662,
+        0.004772,
         0.0,
-        0.995338
+        0.995228
       ],
       "split": "train",
       "FEDFUNDS": 0.12,
@@ -4811,9 +4811,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005018,
+        0.006308,
         0.0,
-        0.994982
+        0.993692
       ],
       "split": "train",
       "FEDFUNDS": 0.34,
@@ -4895,9 +4895,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004957,
+        0.004814,
         0.0,
-        0.995043
+        0.995186
       ],
       "split": "train",
       "FEDFUNDS": 0.37,
@@ -4937,9 +4937,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.106599,
+        0.38985,
         0.0,
-        0.893401
+        0.61015
       ],
       "split": "train",
       "FEDFUNDS": 0.39,
@@ -4979,9 +4979,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.017032,
+        0.018417,
         0.0,
-        0.982968
+        0.981583
       ],
       "split": "train",
       "FEDFUNDS": 0.4,
@@ -5000,9 +5000,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.017813,
+        0.019133,
         0.0,
-        0.982187
+        0.980867
       ],
       "split": "train",
       "FEDFUNDS": 0.4,
@@ -5063,9 +5063,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.008567,
+        0.007095,
         0.0,
-        0.991433
+        0.992905
       ],
       "split": "train",
       "FEDFUNDS": 0.65,
@@ -5126,11 +5126,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.003915,
+        0.004427,
         0.0,
-        0.996085
+        0.995573
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 0.9,
       "SP500": 2395.96,
       "UNRATE": 4.4,
@@ -5147,11 +5147,11 @@
       "regime": 0,
       "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.999491,
+        0.999997,
         0.0,
-        0.000509
+        3e-06
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 0.91,
       "SP500": 2388.33,
       "UNRATE": 4.4,
@@ -5172,7 +5172,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.04,
       "SP500": 2430.06,
       "UNRATE": 4.3,
@@ -5189,11 +5189,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.003633,
+        0.004694,
         0.0,
-        0.996367
+        0.995306
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.15,
       "SP500": 2430.06,
       "UNRATE": 4.3,
@@ -5214,7 +5214,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.16,
       "SP500": 2476.35,
       "UNRATE": 4.4,
@@ -5231,11 +5231,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.059877,
+        0.05087,
         0.0,
-        0.940123
+        0.94913
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.15,
       "SP500": 2476.55,
       "UNRATE": 4.3,
@@ -5252,11 +5252,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.012783,
+        0.017514,
         0.0,
-        0.987217
+        0.982486
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.15,
       "SP500": 2476.55,
       "UNRATE": 4.2,
@@ -5277,7 +5277,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.16,
       "SP500": 2579.36,
       "UNRATE": 4.2,
@@ -5298,7 +5298,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.3,
       "SP500": 2642.22,
       "UNRATE": 4.1,
@@ -5315,11 +5315,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.011454,
+        0.009106,
         0.0,
-        0.988546
+        0.990894
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.41,
       "SP500": 2642.22,
       "UNRATE": 4.0,
@@ -5340,7 +5340,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.42,
       "SP500": 2821.98,
       "UNRATE": 4.1,
@@ -5361,7 +5361,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.51,
       "SP500": 2677.67,
       "UNRATE": 4.0,
@@ -5378,11 +5378,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004947,
+        0.004927,
         0.0,
-        0.995053
+        0.995073
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.69,
       "SP500": 2677.67,
       "UNRATE": 4.0,
@@ -5403,7 +5403,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.7,
       "SP500": 2654.8,
       "UNRATE": 3.8,
@@ -5424,7 +5424,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.82,
       "SP500": 2734.62,
       "UNRATE": 4.0,
@@ -5441,11 +5441,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.002177,
+        0.003235,
         0.0,
-        0.997823
+        0.996765
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.91,
       "SP500": 2734.62,
       "UNRATE": 3.8,
@@ -5466,7 +5466,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.91,
       "SP500": 2813.36,
       "UNRATE": 3.8,
@@ -5483,11 +5483,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.003123,
+        0.003687,
         0.0,
-        0.996877
+        0.996313
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.95,
       "SP500": 2813.36,
       "UNRATE": 3.7,
@@ -5508,7 +5508,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.19,
       "SP500": 2924.59,
       "UNRATE": 3.8,
@@ -5529,7 +5529,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.2,
       "SP500": 2740.37,
       "UNRATE": 3.8,
@@ -5546,11 +5546,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.009694,
+        0.014948,
         0.0,
-        0.990306
+        0.985052
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.27,
       "SP500": 2740.37,
       "UNRATE": 3.9,
@@ -5567,11 +5567,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.010102,
+        0.019145,
         0.0,
-        0.989898
+        0.980855
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.4,
       "SP500": 2740.37,
       "UNRATE": 4.0,
@@ -5592,7 +5592,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.4,
       "SP500": 2706.53,
       "UNRATE": 3.8,
@@ -5613,7 +5613,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.41,
       "SP500": 2803.69,
       "UNRATE": 3.8,
@@ -5634,7 +5634,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.42,
       "SP500": 2867.19,
       "UNRATE": 3.7,
@@ -5655,7 +5655,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.39,
       "SP500": 2923.73,
       "UNRATE": 3.6,
@@ -5672,11 +5672,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.001767,
+        0.003389,
         0.0,
-        0.998233
+        0.996611
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.38,
       "SP500": 2923.73,
       "UNRATE": 3.6,
@@ -5697,7 +5697,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.4,
       "SP500": 2964.33,
       "UNRATE": 3.7,
@@ -5714,11 +5714,11 @@
       "regime": 0,
       "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.999979,
+        1.0,
         0.0,
-        2.1e-05
+        0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.13,
       "SP500": 2953.56,
       "UNRATE": 3.6,
@@ -5735,11 +5735,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.002718,
+        0.003752,
         0.0,
-        0.997282
+        0.996248
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 2.04,
       "SP500": 2953.56,
       "UNRATE": 3.5,
@@ -5760,7 +5760,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.83,
       "SP500": 2940.25,
       "UNRATE": 3.6,
@@ -5781,7 +5781,7 @@
         0.0,
         0.0
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.55,
       "SP500": 3066.91,
       "UNRATE": 3.6,
@@ -5798,11 +5798,11 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.01916,
+        0.021872,
         0.0,
-        0.98084
+        0.978128
       ],
-      "split": "test",
+      "split": "train",
       "FEDFUNDS": 1.55,
       "SP500": 3066.91,
       "UNRATE": 3.6,
@@ -5819,9 +5819,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.012193,
+        0.016502,
         0.0,
-        0.987807
+        0.983498
       ],
       "split": "test",
       "FEDFUNDS": 1.55,
@@ -5840,9 +5840,9 @@
       "regime": 0,
       "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        1.0,
+        0.999964,
         0.0,
-        0.0
+        3.6e-05
       ],
       "split": "test",
       "FEDFUNDS": 1.58,
@@ -6022,8 +6022,8 @@
       "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
-        1.0,
-        0.0
+        0.999949,
+        5.1e-05
       ],
       "split": "test",
       "FEDFUNDS": 0.09,
@@ -6042,8 +6042,8 @@
       "regime": 1,
       "regime_label": "High-Vol Crisis",
       "regime_probs": [
-        0.0,
-        1.0,
+        5.1e-05,
+        0.999949,
         0.0
       ],
       "split": "test",
@@ -6060,12 +6060,12 @@
     },
     {
       "date": "2021-01-01",
-      "regime": 1,
-      "regime_label": "High-Vol Crisis",
+      "regime": 2,
+      "regime_label": "Transition/Tightening",
       "regime_probs": [
         0.0,
-        0.994861,
-        0.005139
+        0.05203,
+        0.94797
       ],
       "split": "test",
       "FEDFUNDS": 0.09,
@@ -6081,11 +6081,11 @@
     },
     {
       "date": "2021-02-01",
-      "regime": 1,
-      "regime_label": "High-Vol Crisis",
+      "regime": 0,
+      "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.005139,
-        0.994861,
+        0.94797,
+        0.05203,
         0.0
       ],
       "split": "test",
@@ -6102,11 +6102,11 @@
     },
     {
       "date": "2021-03-01",
-      "regime": 1,
-      "regime_label": "High-Vol Crisis",
+      "regime": 0,
+      "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.005135,
-        0.994865,
+        0.947955,
+        0.052045,
         0.0
       ],
       "split": "test",
@@ -6123,11 +6123,11 @@
     },
     {
       "date": "2021-04-01",
-      "regime": 1,
-      "regime_label": "High-Vol Crisis",
+      "regime": 0,
+      "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.005134,
-        0.994866,
+        0.947925,
+        0.052075,
         0.0
       ],
       "split": "test",
@@ -6147,9 +6147,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        1e-05,
+        0.003585,
         0.0,
-        0.99999
+        0.996415
       ],
       "split": "test",
       "FEDFUNDS": 0.06,
@@ -6189,8 +6189,8 @@
       "regime": 0,
       "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.999999,
-        1e-06,
+        1.0,
+        0.0,
         0.0
       ],
       "split": "test",
@@ -6210,9 +6210,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004334,
+        0.004318,
         0.0,
-        0.995666
+        0.995682
       ],
       "split": "test",
       "FEDFUNDS": 0.09,
@@ -6315,9 +6315,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.045279,
+        0.026772,
         0.0,
-        0.954721
+        0.973228
       ],
       "split": "test",
       "FEDFUNDS": 0.08,
@@ -6399,9 +6399,9 @@
       "regime": 0,
       "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.833183,
+        0.550846,
         0.0,
-        0.166817
+        0.449154
       ],
       "split": "test",
       "FEDFUNDS": 0.77,
@@ -6504,9 +6504,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.029287,
+        0.020946,
         0.0,
-        0.970713
+        0.979054
       ],
       "split": "test",
       "FEDFUNDS": 3.08,
@@ -6567,9 +6567,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.021244,
+        0.018609,
         0.0,
-        0.978756
+        0.981391
       ],
       "split": "test",
       "FEDFUNDS": 4.33,
@@ -6630,9 +6630,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.006637,
+        0.007159,
         0.0,
-        0.993363
+        0.992841
       ],
       "split": "test",
       "FEDFUNDS": 4.83,
@@ -6693,9 +6693,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.004898,
+        0.006174,
         0.0,
-        0.995102
+        0.993826
       ],
       "split": "test",
       "FEDFUNDS": 5.12,
@@ -6756,9 +6756,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005406,
+        0.006323,
         0.0,
-        0.994594
+        0.993677
       ],
       "split": "test",
       "FEDFUNDS": 5.33,
@@ -6819,9 +6819,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.006766,
+        0.007399,
         0.0,
-        0.993234
+        0.992601
       ],
       "split": "test",
       "FEDFUNDS": 5.33,
@@ -6924,9 +6924,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.006138,
+        0.007709,
         0.0,
-        0.993862
+        0.992291
       ],
       "split": "test",
       "FEDFUNDS": 5.33,
@@ -6987,9 +6987,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.006075,
+        0.006611,
         0.0,
-        0.993925
+        0.993389
       ],
       "split": "test",
       "FEDFUNDS": 5.13,
@@ -7029,9 +7029,9 @@
       "regime": 0,
       "regime_label": "Low-Vol Growth",
       "regime_probs": [
-        0.999918,
+        1.0,
         0.0,
-        8.2e-05
+        0.0
       ],
       "split": "test",
       "FEDFUNDS": 4.64,
@@ -7050,9 +7050,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.024038,
+        0.025482,
         0.0,
-        0.975962
+        0.974518
       ],
       "split": "test",
       "FEDFUNDS": 4.48,
@@ -7071,9 +7071,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.132477,
+        0.140045,
         0.0,
-        0.867523
+        0.859955
       ],
       "split": "test",
       "FEDFUNDS": 4.33,
@@ -7092,9 +7092,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.018005,
+        0.020311,
         0.0,
-        0.981995
+        0.979689
       ],
       "split": "test",
       "FEDFUNDS": 4.33,
@@ -7168,9 +7168,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.005487,
+        0.005712,
         0.0,
-        0.994513
+        0.994288
       ],
       "split": "test",
       "FEDFUNDS": 4.33,
@@ -7231,9 +7231,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.00578,
+        0.005832,
         0.0,
-        0.99422
+        0.994168
       ],
       "split": "test",
       "FEDFUNDS": 4.22,
@@ -7307,9 +7307,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.017531,
+        0.020381,
         0.0,
-        0.982469
+        0.979619
       ],
       "split": "test",
       "FEDFUNDS": 3.64,
@@ -7328,9 +7328,9 @@
       "regime": 2,
       "regime_label": "Transition/Tightening",
       "regime_probs": [
-        0.03359,
+        0.036424,
         0.0,
-        0.96641
+        0.963576
       ],
       "split": "test",
       "FEDFUNDS": 3.64,
@@ -7349,40 +7349,40 @@
     {
       "regime_id": 0,
       "label": "Low-Vol Growth",
-      "n_months": 162,
-      "pct_months": 0.4821,
-      "recession_overlap_pct": 0.0802,
-      "mean_SP500_return": 0.008312019621945069,
-      "std_SP500_return": 0.05593630168691828,
-      "mean_bond_return": 0.00485138888888889,
-      "std_bond_return": 0.029199284161136114,
-      "max_drawdown_equity": -0.47240536674952854,
-      "max_drawdown_bond": -0.24327633775345925,
-      "equity_bond_corr": -0.1633030562167761,
-      "mean_FEDFUNDS": 2.9935802469135804,
-      "mean_DGS10": 3.870432098765432,
-      "mean_UNRATE": 4.618518518518519,
-      "mean_CPI_change": 0.0021905876301872586,
-      "mean_yield_spread": 0.8768518518518519
+      "n_months": 165,
+      "pct_months": 0.4911,
+      "recession_overlap_pct": 0.0727,
+      "mean_SP500_return": 0.01052080484191001,
+      "std_SP500_return": 0.0500886813863704,
+      "mean_bond_return": 0.003306868686868688,
+      "std_bond_return": 0.028920959197217568,
+      "max_drawdown_equity": -0.44244694335833895,
+      "max_drawdown_bond": -0.26836142580771516,
+      "equity_bond_corr": -0.06359255068780631,
+      "mean_FEDFUNDS": 2.945757575757576,
+      "mean_DGS10": 3.8361212121212116,
+      "mean_UNRATE": 4.63878787878788,
+      "mean_CPI_change": 0.0023172193032098653,
+      "mean_yield_spread": 0.8903636363636365
     },
     {
       "regime_id": 1,
       "label": "High-Vol Crisis",
-      "n_months": 71,
-      "pct_months": 0.2113,
-      "recession_overlap_pct": 0.0845,
-      "mean_SP500_return": 0.018723278156028592,
-      "std_SP500_return": 0.04259316724229593,
-      "mean_bond_return": 0.0006752347417840382,
-      "std_bond_return": 0.022617345410904717,
-      "max_drawdown_equity": -0.12794328501030386,
-      "max_drawdown_bond": -0.15914513223894225,
-      "equity_bond_corr": -0.4988610228530346,
-      "mean_FEDFUNDS": 0.1283098591549296,
-      "mean_DGS10": 2.3454929577464787,
-      "mean_UNRATE": 8.564788732394367,
-      "mean_CPI_change": 0.0020114319740816918,
-      "mean_yield_spread": 2.2171830985915495
+      "n_months": 68,
+      "pct_months": 0.2024,
+      "recession_overlap_pct": 0.1029,
+      "mean_SP500_return": 0.0137905601504427,
+      "std_SP500_return": 0.05784390493350815,
+      "mean_bond_return": 0.0031063725490196076,
+      "std_bond_return": 0.02536269700756625,
+      "max_drawdown_equity": -0.12794328501030372,
+      "max_drawdown_bond": -0.10135028799118456,
+      "equity_bond_corr": -0.6361481541073976,
+      "mean_FEDFUNDS": 0.13176470588235295,
+      "mean_DGS10": 2.413235294117647,
+      "mean_UNRATE": 8.685294117647059,
+      "mean_CPI_change": 0.001724274218331506,
+      "mean_yield_spread": 2.2814705882352944
     },
     {
       "regime_id": 2,
@@ -7390,18 +7390,18 @@
       "n_months": 103,
       "pct_months": 0.3065,
       "recession_overlap_pct": 0.068,
-      "mean_SP500_return": -1.7879153700120634e-05,
-      "std_SP500_return": 0.0003846011330512633,
-      "mean_bond_return": 0.002713349514563105,
-      "std_bond_return": 0.010077260928770924,
-      "max_drawdown_equity": -0.0056933356204559886,
-      "max_drawdown_bond": -0.07623333333333336,
-      "equity_bond_corr": 0.3722230288909106,
-      "mean_FEDFUNDS": 2.793106796116505,
-      "mean_DGS10": 3.8486407766990287,
-      "mean_UNRATE": 4.796116504854369,
-      "mean_CPI_change": 0.0022093322050526706,
-      "mean_yield_spread": 1.0555339805825246
+      "mean_SP500_return": 3.5678238520706037e-06,
+      "std_SP500_return": 0.0003168379553401031,
+      "mean_bond_return": 0.0034609223300970863,
+      "std_bond_return": 0.006318250015950681,
+      "max_drawdown_equity": -0.0034920109198005927,
+      "max_drawdown_bond": -0.04150833333333341,
+      "equity_bond_corr": -0.13478770976578147,
+      "mean_FEDFUNDS": 2.783980582524271,
+      "mean_DGS10": 3.8144660194174755,
+      "mean_UNRATE": 4.799029126213592,
+      "mean_CPI_change": 0.002190837393149427,
+      "mean_yield_spread": 1.0304854368932042
     }
   ]
 }
