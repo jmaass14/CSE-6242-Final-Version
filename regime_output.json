@@ -1233,8 +1233,8 @@
     },
     {
       "date": "2001-10-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         2e-06,
         0.999998,
@@ -1254,8 +1254,8 @@
     },
     {
       "date": "2001-11-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -1275,8 +1275,8 @@
     },
     {
       "date": "2001-12-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 2,
+      "regime_label": "Transition/Tightening",
       "regime_probs": [
         0.0,
         0.022674,
@@ -1296,8 +1296,8 @@
     },
     {
       "date": "2002-01-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 2,
+      "regime_label": "Transition/Tightening",
       "regime_probs": [
         0.0,
         0.023411,
@@ -1607,8 +1607,8 @@
     },
     {
       "date": "2003-04-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -1628,8 +1628,8 @@
     },
     {
       "date": "2003-05-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -1649,8 +1649,8 @@
     },
     {
       "date": "2003-06-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.007416,
@@ -1670,8 +1670,8 @@
     },
     {
       "date": "2003-07-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -1691,8 +1691,8 @@
     },
     {
       "date": "2003-08-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.622303,
@@ -1712,8 +1712,8 @@
     },
     {
       "date": "2003-09-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.014579,
@@ -1733,8 +1733,8 @@
     },
     {
       "date": "2003-10-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -1754,8 +1754,8 @@
     },
     {
       "date": "2003-11-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.007438,
@@ -1775,8 +1775,8 @@
     },
     {
       "date": "2003-12-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -1838,8 +1838,8 @@
     },
     {
       "date": "2004-03-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -1859,8 +1859,8 @@
     },
     {
       "date": "2004-04-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -1880,8 +1880,8 @@
     },
     {
       "date": "2004-05-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.005343,
@@ -1901,8 +1901,8 @@
     },
     {
       "date": "2004-06-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -1922,8 +1922,8 @@
     },
     {
       "date": "2004-07-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -1943,8 +1943,8 @@
     },
     {
       "date": "2004-08-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.007536,
@@ -1964,8 +1964,8 @@
     },
     {
       "date": "2004-09-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         2e-06,
         0.999998,
@@ -1985,8 +1985,8 @@
     },
     {
       "date": "2004-10-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -2006,8 +2006,8 @@
     },
     {
       "date": "2004-11-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.008136,
@@ -2027,8 +2027,8 @@
     },
     {
       "date": "2004-12-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         2.9e-05,
         0.999971,
@@ -2090,8 +2090,8 @@
     },
     {
       "date": "2005-03-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.207981,
         0.792019,
@@ -2111,8 +2111,8 @@
     },
     {
       "date": "2005-04-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.207838,
         0.792162,
@@ -2132,8 +2132,8 @@
     },
     {
       "date": "2005-05-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.204017,
         0.0,
@@ -2930,8 +2930,8 @@
     },
     {
       "date": "2008-07-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -2951,8 +2951,8 @@
     },
     {
       "date": "2008-08-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -2972,8 +2972,8 @@
     },
     {
       "date": "2008-09-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.006913,
@@ -2993,8 +2993,8 @@
     },
     {
       "date": "2008-10-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -3014,8 +3014,8 @@
     },
     {
       "date": "2008-11-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         2e-06,
@@ -3035,8 +3035,8 @@
     },
     {
       "date": "2008-12-01",
-      "regime": 0,
-      "regime_label": "Low-Vol Growth",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -4043,8 +4043,8 @@
     },
     {
       "date": "2012-12-01",
-      "regime": 1,
-      "regime_label": "High-Vol Crisis",
+      "regime": 2,
+      "regime_label": "Transition/Tightening",
       "regime_probs": [
         0.0,
         0.032525,
@@ -4064,8 +4064,8 @@
     },
     {
       "date": "2013-01-01",
-      "regime": 1,
-      "regime_label": "High-Vol Crisis",
+      "regime": 2,
+      "regime_label": "Transition/Tightening",
       "regime_probs": [
         0.0,
         0.032733,
@@ -4438,8 +4438,8 @@
     },
     {
       "date": "2014-07-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -4459,8 +4459,8 @@
     },
     {
       "date": "2014-08-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         1.0,
@@ -4480,8 +4480,8 @@
     },
     {
       "date": "2014-09-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.00683,
@@ -4501,8 +4501,8 @@
     },
     {
       "date": "2014-10-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         1e-06,
         0.999999,
@@ -4522,8 +4522,8 @@
     },
     {
       "date": "2014-11-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.005704,
@@ -4543,8 +4543,8 @@
     },
     {
       "date": "2014-12-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         4e-06,
         0.999996,
@@ -4627,8 +4627,8 @@
     },
     {
       "date": "2015-04-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         3.9e-05,
         0.994601,
@@ -4648,8 +4648,8 @@
     },
     {
       "date": "2015-05-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         9e-06,
         0.999991,
@@ -4669,8 +4669,8 @@
     },
     {
       "date": "2015-06-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.079126,
@@ -4690,8 +4690,8 @@
     },
     {
       "date": "2015-07-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.000125,
         0.999875,
@@ -4711,8 +4711,8 @@
     },
     {
       "date": "2015-08-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.0,
         0.006391,
@@ -4732,8 +4732,8 @@
     },
     {
       "date": "2015-09-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.000497,
         0.999503,
@@ -4753,8 +4753,8 @@
     },
     {
       "date": "2015-10-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.00048,
         0.99952,
@@ -4774,8 +4774,8 @@
     },
     {
       "date": "2015-11-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         7.5e-05,
         0.006246,
@@ -4795,8 +4795,8 @@
     },
     {
       "date": "2015-12-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.020039,
         0.979961,
@@ -4816,8 +4816,8 @@
     },
     {
       "date": "2016-01-01",
-      "regime": 2,
-      "regime_label": "Transition/Tightening",
+      "regime": 1,
+      "regime_label": "High-Vol Crisis",
       "regime_probs": [
         0.019529,
         1.7e-05,
@@ -7369,59 +7369,59 @@
     {
       "regime_id": 0,
       "label": "Low-Vol Growth",
-      "n_months": 201,
-      "pct_months": 0.5894,
-      "recession_overlap_pct": 0.0995,
-      "mean_SP500_return": 0.004876347028989266,
-      "std_SP500_return": 0.046410769483726126,
-      "mean_bond_return": 0.004197541666666666,
-      "std_bond_return": 0.02341855930997021,
-      "max_drawdown_equity": -0.5424491265068921,
-      "max_drawdown_bond": -0.23056488711356782,
-      "equity_bond_corr": -0.131673468103686,
-      "mean_FEDFUNDS": 3.576766169154228,
-      "mean_DGS10": 4.0023880597014925,
-      "mean_UNRATE": 4.3606965174129355,
-      "mean_CPI_change": 0.002312261281515995,
-      "mean_yield_spread": 0.4256218905472637
+      "n_months": 191,
+      "pct_months": 0.5601,
+      "recession_overlap_pct": 0.0628,
+      "mean_SP500_return": 0.008195628562445635,
+      "std_SP500_return": 0.03953397362861866,
+      "mean_bond_return": 0.0033226315789473683,
+      "std_bond_return": 0.0225587815890621,
+      "max_drawdown_equity": -0.20045106228488124,
+      "max_drawdown_bond": -0.23056488711356793,
+      "equity_bond_corr": 0.03695117548440724,
+      "mean_FEDFUNDS": 3.6830366492146593,
+      "mean_DGS10": 4.005235602094241,
+      "mean_UNRATE": 4.270680628272252,
+      "mean_CPI_change": 0.0025918149437963683,
+      "mean_yield_spread": 0.32219895287958117
     },
     {
       "regime_id": 1,
       "label": "High-Vol Crisis",
-      "n_months": 83,
-      "pct_months": 0.2434,
-      "recession_overlap_pct": 0.0482,
-      "mean_SP500_return": 0.012511620550123474,
-      "std_SP500_return": 0.05044774171902354,
-      "mean_bond_return": 0.0015317073170731709,
-      "std_bond_return": 0.0250591289244807,
-      "max_drawdown_equity": -0.26046196010778827,
-      "max_drawdown_bond": -0.15914513223894214,
-      "equity_bond_corr": -0.5343979089389423,
-      "mean_FEDFUNDS": 0.3128915662650602,
-      "mean_DGS10": 2.5587951807228917,
-      "mean_UNRATE": 8.168674698795181,
-      "mean_CPI_change": 0.002089716687516706,
-      "mean_yield_spread": 2.245903614457831
+      "n_months": 127,
+      "pct_months": 0.3724,
+      "recession_overlap_pct": 0.0945,
+      "mean_SP500_return": 0.0067164420688363815,
+      "std_SP500_return": 0.055751565020754755,
+      "mean_bond_return": 0.0031524666666666672,
+      "std_bond_return": 0.02657385183373615,
+      "max_drawdown_equity": -0.442321596290767,
+      "max_drawdown_bond": -0.0988884141427793,
+      "equity_bond_corr": -0.48081158742163915,
+      "mean_FEDFUNDS": 0.568031496062992,
+      "mean_DGS10": 2.900236220472441,
+      "mean_UNRATE": 7.270078740157481,
+      "mean_CPI_change": 0.001453196898476443,
+      "mean_yield_spread": 2.332204724409449
     },
     {
       "regime_id": 2,
       "label": "Transition/Tightening",
-      "n_months": 57,
-      "pct_months": 0.1672,
-      "recession_overlap_pct": 0.0526,
-      "mean_SP500_return": 0.008200751002900155,
-      "std_SP500_return": 0.030183009811006883,
-      "mean_bond_return": 0.0027575757575757577,
-      "std_bond_return": 0.021043753794100676,
-      "max_drawdown_equity": -0.09370516395282699,
-      "max_drawdown_bond": -0.07623333333333333,
-      "equity_bond_corr": 0.03795520262089708,
-      "mean_FEDFUNDS": 0.8152631578947368,
-      "mean_DGS10": 3.308947368421052,
-      "mean_UNRATE": 5.815789473684211,
-      "mean_CPI_change": 0.0014265648626012035,
-      "mean_yield_spread": 2.4936842105263155
+      "n_months": 23,
+      "pct_months": 0.0674,
+      "recession_overlap_pct": 0.1304,
+      "mean_SP500_return": 0.0029434724992636135,
+      "std_SP500_return": 0.014692927354059955,
+      "mean_bond_return": 0.00415530303030303,
+      "std_bond_return": 0.005270607417490179,
+      "max_drawdown_equity": -0.0016451320817425508,
+      "max_drawdown_bond": 0.0,
+      "equity_bond_corr": -0.9894143441265775,
+      "mean_FEDFUNDS": 0.6856521739130433,
+      "mean_DGS10": 3.1365217391304347,
+      "mean_UNRATE": 6.391304347826087,
+      "mean_CPI_change": 0.0017361973671850236,
+      "mean_yield_spread": 2.450869565217391
     }
   ]
 }
