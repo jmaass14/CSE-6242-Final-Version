@@ -167,25 +167,29 @@ def fit_hmm_best(X_scaled: np.ndarray, n_components: int = N_REGIMES,
 # Data Dictionary
 # Lowest SP500 Return - Crisis
 # Highest SP500 - Growth
-# Remainder - Transition
+# Remainder - Transition - This can also be seen as a recovery period, but high UNRATE sways me away from this
 ###############################
 def label_regimes(model: GaussianHMM, scaler: StandardScaler,
                   feature_cols: list) -> dict:
-    
-    means_orig = scaler.inverse_transform(model.means_)  # (n_states, n_features)
+    means_orig = scaler.inverse_transform(model.means_)
     sp500_idx  = feature_cols.index("SP500_return")
     unrate_idx = feature_cols.index("UNRATE")
 
-    # Higher = more 'growth-like'
-    scores = means_orig[:, sp500_idx] - 0.3 * means_orig[:, unrate_idx]
-    order  = np.argsort(scores)   # ascending: [crisis_id, transition_id, growth_id]
+    # Crisis = state with most negative equity return
+    crisis_id = int(np.argmin(means_orig[:, sp500_idx]))
 
-    state_label_map = {
-        int(order[0]): "crisis",
-        int(order[1]): "transition",
-        int(order[2]): "growth",
+    # Lower UNRATE = expansion, higher UNRATE = recovery/transition
+    remaining = [i for i in range(model.n_components) if i != crisis_id]
+    if means_orig[remaining[0], unrate_idx] < means_orig[remaining[1], unrate_idx]:
+        growth_id, transition_id = remaining[0], remaining[1]
+    else:
+        growth_id, transition_id = remaining[1], remaining[0]
+
+    return {
+        crisis_id:     "crisis",
+        growth_id:     "growth",
+        transition_id: "transition",
     }
-    return state_label_map
 
 
 # Decode States
